@@ -1,0 +1,58 @@
+\section{Derivation of the \texorpdfstring{$\ln 2$}{ln 2} factor}
+\label{app:ln2_derivation}
+
+Assume a linear, time\textendash invariant RC network so that the step response of the
+node voltage is exponential. For the rising edge (charging through
+$R_{\uparrow}$) we have:
+
+\[
+V_{\text{rise}}(t) = V_{\max}\!\left(1-e^{-t/\tau_{\uparrow}}\right),
+\qquad
+\tau_{\uparrow}=R_{\uparrow}C_{\mathrm{eff}}
+\]
+
+The sampler triggers when the waveform reaches one\textendash half of its final value,
+i.e. when $V_{\text{rise}}(t_{\uparrow})=\tfrac{1}{2}V_{\max}$. Setting
+the two expressions equal gives:
+
+\[
+\frac{1}{2}V_{\max}
+      = V_{\max}\left(1-e^{-t_{\uparrow}/\tau_{\uparrow}}\right)
+\Longrightarrow
+e^{-t_{\uparrow}/\tau_{\uparrow}} = \frac{1}{2}
+\]
+
+Taking the natural logarithm of both sides:
+
+\[
+-\frac{t_{\uparrow}}{\tau_{\uparrow}}
+      = \ln\!\left(\tfrac{1}{2}\right)
+\Longrightarrow
+t_{\uparrow}= \tau_{\uparrow}\ln 2
+            = R_{\uparrow}C_{\mathrm{eff}}\ln 2
+\tag{A}
+\]
+
+For the falling edge (discharging through $R_{\downarrow}$) the waveform is:
+
+\[
+V_{\text{fall}}(t) = V_{\max}e^{-t/\tau_{\downarrow}},
+\qquad
+\tau_{\downarrow}=R_{\downarrow}C_{\mathrm{eff}}
+\]
+
+The $50\,\%$ crossing occurs when $V_{\text{fall}}(t_{\downarrow})=
+\tfrac{1}{2}V_{\max}$:
+
+\[
+\frac{1}{2}V_{\max}
+      = V_{\max}e^{-t_{\downarrow}/\tau_{\downarrow}}
+\Longrightarrow
+t_{\downarrow}= \tau_{\downarrow}\ln 2
+              = R_{\downarrow}C_{\mathrm{eff}}\ln 2
+\tag{B}
+\]
+
+Equations (A) and (B) are the origin of the $\ln 2$ factor that
+appears in the timing expressions and in the incremental delay formulae.
+

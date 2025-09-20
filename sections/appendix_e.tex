@@ -1,0 +1,37 @@
+\section{Duty-Cycle Sensitivity Derivation}
+\label{app:duty_cycle_derivation}
+
+Consider a rail-to-rail clock of period $T$ and peak amplitude $V_{\max}$. The decision threshold of the sampler is fixed at $V_{\text{th}} = V_{\max}/2$. Rising- and falling-edge slew rates are
+\begin{equation}
+\text{SR}_{\uparrow} = \left.\frac{\mathrm{d}V}{\mathrm{d}t}\right|_{\text{rising}},\qquad
+\text{SR}_{\downarrow} = \left.\frac{\mathrm{d}V}{\mathrm{d}t}\right|_{\text{falling}}
+\label{eq:slew_def}
+\end{equation}
+
+Starting the rising edge at $t=0$ and the falling edge at $t=T/2$, the threshold-crossing times are
+\begin{subequations}\label{eq:t_cross}
+\begin{align}
+ t_{\uparrow} &= \frac{V_{\max}}{2\,\text{SR}_{\uparrow}},\\
+ t_{\downarrow} &= \frac{T}{2} + \frac{V_{\max}}{2\,\text{SR}_{\downarrow}}.
+\end{align}
+\end{subequations}
+
+The resulting high-level interval is
+\[
+T_{\text{high}} = \frac{T}{2} + \frac{V_{\max}}{2}\left(\frac{1}{\text{SR}_{\downarrow}}-\frac{1}{\text{SR}_{\uparrow}}\right).
+\]
+Normalising by $T$ yields the duty cycle
+\begin{equation}
+D = \frac{1}{2} + \frac{V_{\max}}{2T}\left(\frac{1}{\text{SR}_{\downarrow}}-\frac{1}{\text{SR}_{\uparrow}}\right).
+\label{eq:D_general}
+\end{equation}
+
+If the falling-edge slew rate remains at $\text{SR}_0$ and the rising-edge slew rate changes by a fraction $\alpha$,
+\[
+\text{SR}_{\uparrow} = \text{SR}_0(1+\alpha),\qquad \text{SR}_{\downarrow} = \text{SR}_0,
+\]
+then
+\begin{equation}
+D(\alpha) = \frac{1}{2} + \frac{V_{\max}}{2T\,\text{SR}_0}\frac{\alpha}{1+\alpha}.
+\label{eq:D_rising_knob}
+\end{equation}
