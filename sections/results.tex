@@ -297,7 +297,7 @@ The ported design retained the core feed-forward architectural principles. Howev
 
 The initial 3\,nm design failed to meet jitter specifications, which necessitated doubling transistor sizes. While the capacitance and bias voltage tuning blocks successfully tuned the phases across \gls{pvt} variations, it was noted that the minimum capacitance of the MOS capacitor banks was higher than desired. This led to a reduction of most static capacitances in the circuit to compensate for this effect. The purpose of static capacitanes had been to provide a fixed delay shift in designs where the range of the tunable capacitors was sufficiently large, but consistently too low, meaning only the (e.g.) lower 70\,\% of the total available codes were being used. Higher frequencies, however, naturally required less total capacitance, and the static capacitances were not needed to achieve the required phase shifts. 
 
-\subsection{Frequency range increase to 11\,GHz - 22.5\,\,GHz}\label{sec:freq_range}
+\subsection{Frequency range increase to 11~GHz - 22.5~GHz}\label{sec:freq_range}
 
 The design was further adapted to operate across a wide frequency range from 11\,GHz to 22.5\,GHz. This required resizing the capacitor banks to ensure adequate phase shift control across the entire spectrum. This resizing led to an increase in the bank's total needed capacitance, which consequently increased the parasitic off capacitance as well.
 

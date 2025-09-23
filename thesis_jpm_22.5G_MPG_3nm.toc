@@ -44,7 +44,7 @@
 \contentsline {subsubsection}{\numberline {4.3.6.2}Feed-forward technique}{15}{subsubsection.4.3.6.2}%
 \contentsline {subsection}{\numberline {4.3.7}8-phase generation using feed-forwarding}{15}{subsection.4.3.7}%
 \contentsline {subsection}{\numberline {4.3.8}3 nm Porting}{16}{subsection.4.3.8}%
-\contentsline {subsection}{\numberline {4.3.9}Frequency range increase to 11\,GHz - 22.5\,\,GHz}{16}{subsection.4.3.9}%
+\contentsline {subsection}{\numberline {4.3.9}Frequency range increase to 11~GHz - 22.5~GHz}{16}{subsection.4.3.9}%
 \contentsline {subsubsection}{\numberline {4.3.9.1}Capacitance bank behavior and duty‑cycle distortion}{16}{subsubsection.4.3.9.1}%
 \contentsline {subsection}{\numberline {4.3.10}Parasitic Back-Annotation Strategy}{18}{subsection.4.3.10}%
 \contentsline {subsection}{\numberline {4.3.11}Redesign in favor of pure delay implementation}{19}{subsection.4.3.11}%

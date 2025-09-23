@@ -3,18 +3,18 @@
 
 \begin{table}[htbp]
   \centering
-  \begin{tabular}{@{}lrl@{}}
-    \toprule
-    Symbol & Default & Description\\
-    \midrule
-    $\phi_\mathrm{target}$        & \SI{270}{\degree} & Desired phase shift\\
-    $\phi_\mathrm{tol,lock}$      & \SI{0.5}{\degree} & Lock tolerance\\
-    $\phi_\mathrm{tol,retune}$    & \SI{1}{\degree}   & Retune tolerance \\[2pt]
-    \texttt{wait\_cycles}         & 3                 & Dead time after each code step\\
-    \texttt{initial\_cap\_val}    & 0                 & Code start-up value\\
-    \bottomrule
-  \end{tabular}
-  \caption{Key parameters and typical values for the \texttt{generic\_cap\_tuner}.}
+  \caption{Key parameters and typical values for the generic cap tuner.}
   \label{tab:tuner_params}
+  \begin{tabular}{lll}
+    \hline
+    Symbol & Default & Description \\
+    \hline
+    $\phi_\mathrm{target}$     & \SI{270}{\degree} & Desired phase shift \\
+    $\phi_\mathrm{tol,lock}$   & \SI{0.5}{\degree} & Lock tolerance \\
+    $\phi_\mathrm{tol,retune}$ & \SI{1}{\degree}   & Retune tolerance \\
+    wait cycles                  & 3                  & Dead time after each code step \\
+    initial cap value            & 0                  & Code start-up value \\
+    \hline
+  \end{tabular}
 \end{table}
 

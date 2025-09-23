@@ -1,6 +1,6 @@
-PWD p:\Internship_AMD\Thesis-Template
+PWD p:\FCT\Internship_AMD\Thesis
 INPUT C:\Users\João Marcelino\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT p:\Internship_AMD\Thesis-Template\thesis_jpm_22.5G_MPG_3nm.tex
+INPUT p:\FCT\Internship_AMD\Thesis\thesis_jpm_22.5G_MPG_3nm.tex
 OUTPUT thesis_jpm_22.5G_MPG_3nm.log
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
@@ -422,32 +422,6 @@ INPUT .\sections\resumo.tex
 INPUT .\sections\resumo.tex
 INPUT .\sections\resumo.tex
 INPUT sections\resumo.tex
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
-INPUT .\sections\abstract.tex
-INPUT .\sections\abstract.tex
-INPUT .\sections\abstract.tex
-INPUT .\sections\abstract.tex
-INPUT sections\abstract.tex
-INPUT .\sections\acknowledgements.tex
-INPUT .\sections\acknowledgements.tex
-INPUT .\sections\acknowledgements.tex
-INPUT .\sections\acknowledgements.tex
-INPUT sections\acknowledgements.tex
-INPUT .\glossary.tex
-INPUT .\glossary.tex
-INPUT .\glossary.tex
-INPUT .\glossary.tex
-INPUT glossary.tex
-OUTPUT thesis_jpm_22.5G_MPG_3nm.glsdefs
-INPUT .\thesis_jpm_22.5G_MPG_3nm.acr
-INPUT .\thesis_jpm_22.5G_MPG_3nm.acr
-INPUT thesis_jpm_22.5G_MPG_3nm.acr
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
@@ -480,8 +454,33 @@ INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\sections\abstract.tex
+INPUT .\sections\abstract.tex
+INPUT .\sections\abstract.tex
+INPUT .\sections\abstract.tex
+INPUT sections\abstract.tex
+INPUT .\sections\acknowledgements.tex
+INPUT .\sections\acknowledgements.tex
+INPUT .\sections\acknowledgements.tex
+INPUT .\sections\acknowledgements.tex
+INPUT sections\acknowledgements.tex
+INPUT .\glossary.tex
+INPUT .\glossary.tex
+INPUT .\glossary.tex
+INPUT .\glossary.tex
+INPUT glossary.tex
+OUTPUT thesis_jpm_22.5G_MPG_3nm.glsdefs
+INPUT .\thesis_jpm_22.5G_MPG_3nm.acr
+INPUT .\thesis_jpm_22.5G_MPG_3nm.acr
+INPUT thesis_jpm_22.5G_MPG_3nm.acr
 INPUT .\thesis_jpm_22.5G_MPG_3nm.not
 INPUT .\thesis_jpm_22.5G_MPG_3nm.not
 INPUT thesis_jpm_22.5G_MPG_3nm.not
@@ -585,6 +584,7 @@ INPUT .\sections\methods.tex
 INPUT .\sections\methods.tex
 INPUT .\sections\methods.tex
 INPUT sections\methods.tex
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\sections\results.tex
 INPUT .\sections\results.tex
 INPUT .\sections\results.tex
