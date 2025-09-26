@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex thesis_jpm_22.5G_MPG_3nm"] 1758617100.48907 "thesis_jpm_22.5G_MPG_3nm.aux" "thesis_jpm_22.5G_MPG_3nm.bbl" "thesis_jpm_22.5G_MPG_3nm" 1758617126.77407 0
+["bibtex thesis_jpm_22.5G_MPG_3nm"] 1758897322.13697 "thesis_jpm_22.5G_MPG_3nm.aux" "thesis_jpm_22.5G_MPG_3nm.bbl" "thesis_jpm_22.5G_MPG_3nm" 1758897347.60439 0
   "./bibliography.bib" 1755297252 37751 cf92615dd1c983e9003721fa43be652b ""
   "C:/Users/JoÃ£o Marcelino/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/unsrtnat.bst" 0 -1 0 ""
-  "thesis_jpm_22.5G_MPG_3nm.aux" 1758617125 72259 f992d02b7a92dff407b3cfd8b6552d29 "pdflatex"
+  "thesis_jpm_22.5G_MPG_3nm.aux" 1758897346 71275 b72a97a9198d6576484698549fe1d6bc "pdflatex"
   (generated)
   "thesis_jpm_22.5G_MPG_3nm.bbl"
   "thesis_jpm_22.5G_MPG_3nm.blg"
   (rewritten before read)
-["pdflatex"] 1758617100.90878 "p:/FCT/Internship_AMD/Thesis/thesis_jpm_22.5G_MPG_3nm.tex" "thesis_jpm_22.5G_MPG_3nm.pdf" "thesis_jpm_22.5G_MPG_3nm" 1758617126.77591 0
+["pdflatex"] 1758897322.63971 "p:/FCT/Internship_AMD/Thesis/thesis_jpm_22.5G_MPG_3nm.tex" "thesis_jpm_22.5G_MPG_3nm.pdf" "thesis_jpm_22.5G_MPG_3nm" 1758897347.60567 0
   "C:/Users/João Marcelino/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757970878 1673394 33c42f1993ded9d0956be4ea715281cf ""
   "C:/Users/João Marcelino/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1728762247 11952954 9a83dcbaa0f66c28d67894b4928f1f3e ""
   "C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -297,7 +297,6 @@
   "figures/Results/SCI-SwitchVoltageAndLoadingTime.png" 1755297252 77932 d883c01d110a53cfca37e45d1651ee3b ""
   "figures/Schematics/2P2N_cap.png" 1753449860 18167 45b54337957965991530f5c5d25ef22e ""
   "figures/Schematics/2stage_divider.png" 1753449305 241103 b3355705066ffb0f52998f5550ca7bb2 ""
-  "figures/Schematics/BackAnnotation.png" 1755297252 6650 58d27f74c8fbf79e32b0d5e2c271ed40 ""
   "figures/Schematics/CSI_delay_example.png" 1755297252 89019 cc61c47d65e2d4c1de72e726baf513b0 ""
   "figures/Schematics/PNPN_cap.png" 1753449863 18421 d751aef41b13960a1e2249f7a31207e7 ""
   "figures/Schematics/PhaseInterpolator_2paths.png" 1758010452 84333 b1d2e46edb1461b4254d50d7a5e3ee0c ""
@@ -323,7 +322,7 @@
   "figures/Schematics/sync_complete.png" 1753540653 172575 5ec3541eddde89aeb2ad74d51cf88e47 ""
   "figures/university-logo.png" 1755297252 127001 b75bdfcdc362793c13cf283e464d595e ""
   "glossary.tex" 1758013979 4171 e93a711dffd2089cb1312ff432151a38 ""
-  "p:/FCT/Internship_AMD/Thesis/thesis_jpm_22.5G_MPG_3nm.tex" 1758615836 7548 619ce4e119453a609a7edebf2d53b3f2 ""
+  "p:/FCT/Internship_AMD/Thesis/thesis_jpm_22.5G_MPG_3nm.tex" 1758897297 7573 b4915271b5f51a2ba8a8e5563cf7a554 ""
   "sections/abstract.tex" 1758615707 2273 341cec11f384eafe8889b7a8751d41b3 ""
   "sections/acknowledgements.tex" 1758013996 1134 49d7b8ef33d8e88a495165b540d6deda ""
   "sections/appendix_a.tex" 1755379706 6238 1c38e4b2ca8324fcf3806738ed6009c3 ""
@@ -336,20 +335,20 @@
   "sections/appendix_h.tex" 1755297253 32736 e0c15ef0e20d6d2c2317a58b51e46c03 ""
   "sections/conclusions.tex" 1758376942 3464 c09e1cf121da3fad32701fe649be211d ""
   "sections/copyright.tex" 1755297253 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "sections/introduction.tex" 1758014775 3336 7b55064f90eed1487b6bb9845241d234 ""
+  "sections/introduction.tex" 1758896092 3360 02e22b9a2c72c5f5df1031091b15bfde ""
   "sections/methods.tex" 1757972462 3199 eab90d45eee8373e5080627b6e624c7d ""
-  "sections/results.tex" 1758617070 64643 870ad9496de5c0d8ad45c013e8963414 ""
+  "sections/results.tex" 1758897115 65531 e090a2a229323c91d8f2b991fd6d3b75 ""
   "sections/resumo.tex" 1758615662 1996 cdbbf5f3fb767f6e5e2d7b1f0288a53d ""
   "sections/stateoftheart.tex" 1758014396 14013 ce80657e3c64061754b5164c7a9442ba ""
   "thesis_jpm_22.5G_MPG_3nm.acr" 1755297253 6408 b524423fae1940ea27878757f91426e5 ""
-  "thesis_jpm_22.5G_MPG_3nm.aux" 1758617125 72259 f992d02b7a92dff407b3cfd8b6552d29 "pdflatex"
-  "thesis_jpm_22.5G_MPG_3nm.bbl" 1758617100 12669 0d84873aacbca3b504b638c252afc114 "bibtex thesis_jpm_22.5G_MPG_3nm"
-  "thesis_jpm_22.5G_MPG_3nm.glsdefs" 1758617125 21475 2a7492af62f9a6f3e4f3ed9f8f8dbe9a "pdflatex"
-  "thesis_jpm_22.5G_MPG_3nm.lof" 1758617125 8384 a398b87daa1c964d92d7597718264ac5 "pdflatex"
-  "thesis_jpm_22.5G_MPG_3nm.lot" 1758617125 567 7c4540573f021e29340f2da53e3e4837 "pdflatex"
+  "thesis_jpm_22.5G_MPG_3nm.aux" 1758897346 71275 b72a97a9198d6576484698549fe1d6bc "pdflatex"
+  "thesis_jpm_22.5G_MPG_3nm.bbl" 1758897322 12669 0d84873aacbca3b504b638c252afc114 "bibtex thesis_jpm_22.5G_MPG_3nm"
+  "thesis_jpm_22.5G_MPG_3nm.glsdefs" 1758897346 21475 2a7492af62f9a6f3e4f3ed9f8f8dbe9a "pdflatex"
+  "thesis_jpm_22.5G_MPG_3nm.lof" 1758897346 7704 4d1f6b7b43ff05f88ad497f0725f8c01 "pdflatex"
+  "thesis_jpm_22.5G_MPG_3nm.lot" 1758897346 567 d6fb8d93ee1a7ffae9ec172a013952de "pdflatex"
   "thesis_jpm_22.5G_MPG_3nm.not" 1755297253 3916 931c5022bdf4ec75948b7cc3e7195674 ""
-  "thesis_jpm_22.5G_MPG_3nm.tex" 1758615836 7548 619ce4e119453a609a7edebf2d53b3f2 ""
-  "thesis_jpm_22.5G_MPG_3nm.toc" 1758617125 7470 93d02e8bdf7ae7d88c89a4fad80332e8 "pdflatex"
+  "thesis_jpm_22.5G_MPG_3nm.tex" 1758897297 7573 b4915271b5f51a2ba8a8e5563cf7a554 ""
+  "thesis_jpm_22.5G_MPG_3nm.toc" 1758897346 7470 6a0c29566b55ca94efadd2199f5ba6a8 "pdflatex"
   (generated)
   "thesis_jpm_22.5G_MPG_3nm.acn"
   "thesis_jpm_22.5G_MPG_3nm.aux"

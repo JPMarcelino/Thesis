@@ -398,8 +398,6 @@ INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\time
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
@@ -501,9 +499,6 @@ OUTPUT thesis_jpm_22.5G_MPG_3nm.toc
 INPUT .\thesis_jpm_22.5G_MPG_3nm.lof
 INPUT .\thesis_jpm_22.5G_MPG_3nm.lof
 INPUT thesis_jpm_22.5G_MPG_3nm.lof
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 OUTPUT thesis_jpm_22.5G_MPG_3nm.lof
 INPUT .\thesis_jpm_22.5G_MPG_3nm.lot
 INPUT .\thesis_jpm_22.5G_MPG_3nm.lot
@@ -584,7 +579,10 @@ INPUT .\sections\methods.tex
 INPUT .\sections\methods.tex
 INPUT .\sections\methods.tex
 INPUT sections\methods.tex
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\sections\results.tex
 INPUT .\sections\results.tex
 INPUT .\sections\results.tex
@@ -638,14 +636,6 @@ INPUT .\figures\Results\Cap_tests-CapVsVoltage.png
 INPUT .\figures\Results\Cap_tests-CapVsVoltage.png
 INPUT .\figures\Results\Cap_tests-CapVsVoltage.png
 INPUT .\figures\Results\Cap_tests-CapVsVoltage.png
-INPUT .\figures\Schematics\BackAnnotation.png
-INPUT .\figures\Schematics\BackAnnotation.png
-INPUT .\figures\Schematics\BackAnnotation.png
-INPUT .\figures\Schematics\BackAnnotation.png
-INPUT .\figures\Schematics\BackAnnotation.png
-INPUT .\figures\Schematics\BackAnnotation.png
-INPUT .\figures\Schematics\BackAnnotation.png
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT .\figures\Results\FF_8out_PNPN-FightExample.png
 INPUT .\figures\Results\FF_8out_PNPN-FightExample.png
 INPUT .\figures\Results\FF_8out_PNPN-FightExample.png
@@ -653,13 +643,6 @@ INPUT .\figures\Results\FF_8out_PNPN-FightExample.png
 INPUT .\figures\Results\FF_8out_PNPN-FightExample.png
 INPUT .\figures\Results\FF_8out_PNPN-FightExample.png
 INPUT .\figures\Results\FF_8out_PNPN-FightExample.png
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT .\figures\Schematics\pure_delay.png
 INPUT .\figures\Schematics\pure_delay.png
 INPUT .\figures\Schematics\pure_delay.png
@@ -667,7 +650,6 @@ INPUT .\figures\Schematics\pure_delay.png
 INPUT .\figures\Schematics\pure_delay.png
 INPUT .\figures\Schematics\pure_delay.png
 INPUT .\figures\Schematics\pure_delay.png
-INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT .\figures\Schematics\mixF_design.png
 INPUT .\figures\Schematics\mixF_design.png
 INPUT .\figures\Schematics\mixF_design.png
@@ -792,6 +774,13 @@ INPUT .\figures\Results\PI_8out_CSI-clock0Clock90MixingBuildingClock45.png
 INPUT .\figures\Results\PI_8out_CSI-clock0Clock90MixingBuildingClock45.png
 INPUT .\figures\Results\PI_8out_CSI-clock0Clock90MixingBuildingClock45.png
 INPUT .\figures\Results\PI_8out_CSI-clock0Clock90MixingBuildingClock45.png
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT .\figures\Schematics\Tuning_principle.png
 INPUT .\figures\Schematics\Tuning_principle.png
 INPUT .\figures\Schematics\Tuning_principle.png
