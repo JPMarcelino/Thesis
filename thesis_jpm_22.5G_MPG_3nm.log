@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  26 SEP 2025 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  26 SEP 2025 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1250,10 +1250,6 @@ Package pdftex.def Info: figures/Results/Cap_tests-CapVsVoltage.png  used on inp
 (pdftex.def)             Requested size: 204.85846pt x 168.95772pt.
 
 
-LaTeX Warning: Reference `fig:back_annotation' on page 18 undefined on input line 370.
-
-
-
 [18 <./figures/Results/Cap_tests-CapVsCode.png> <./figures/Results/Cap_tests-CapVsVoltage.png>]
 <figures/Results/FF_8out_PNPN-FightExample.png, id=702, 631.27844pt x 512.3943pt>
 File: figures/Results/FF_8out_PNPN-FightExample.png Graphic file (type png)
@@ -1310,13 +1306,6 @@ File: figures/Schematics/PhaseInterpolator_2paths.png Graphic file (type png)
 <use figures/Schematics/PhaseInterpolator_2paths.png>
 Package pdftex.def Info: figures/Schematics/PhaseInterpolator_2paths.png  used on input line 558.
 (pdftex.def)             Requested size: 136.57462pt x 132.53903pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <figures/Results/Final_HF_LF_MF-Pivot_Jee.png, id=782, 1052.9739pt x 527.571pt>
 File: figures/Results/Final_HF_LF_MF-Pivot_Jee.png Graphic file (type png)
 <use figures/Results/Final_HF_LF_MF-Pivot_Jee.png>
@@ -1617,16 +1606,12 @@ Overfull \hbox (52.36105pt too wide) in paragraph at lines 518--519
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 40850 strings out of 473899
- 792580 string characters out of 5721743
- 1675128 words of memory out of 5000000
- 61221 multiletter control sequences out of 15000+600000
+ 40849 strings out of 473899
+ 792559 string characters out of 5721743
+ 1675092 words of memory out of 5000000
+ 61220 multiletter control sequences out of 15000+600000
  622971 words of font info for 435 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,14n,93p,2372b,2820s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1697,7 +1682,7 @@ pdfTeX warning (dest): name{glo:pvt} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:csi} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 6024882 bytes).
+Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 6024492 bytes).
 PDF statistics:
  2718 PDF objects out of 2984 (max. 8388607)
  1329 named destinations out of 1440 (max. 500000)

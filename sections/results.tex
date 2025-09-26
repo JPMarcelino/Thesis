@@ -367,7 +367,7 @@ Figures \ref{fig:cap_vs_codes} and \ref{fig:cap_vs_tap_voltage} verify these obs
 \subsection{Parasitic Back-Annotation Strategy}
 
 To model post-layout behaviour we first back-annotated parasitic capacitances extracted with \textsc{ParagonX Pro}.%
-The extracted values were inserted as ideal lumped capacitors between every relevant node pair (\(V_\text{IN}\), \(V_\text{OUT}\), \(V_\text{DD}\), \(V_\text{SS}\)) as drawn in Figure~\ref{fig:back_annotation}.
+The extracted values were inserted as ideal lumped capacitors between every relevant node pair (\(V_\text{IN}\), \(V_\text{OUT}\), \(V_\text{DD}\), \(V_\text{SS}\)).
 
 % \begin{figure}[htbp]
 %   \centering
@@ -522,7 +522,7 @@ The three‑path topology promises superior linearity but imposes a larger capac
 \paragraph{Isolation improvement.} Under identical conditions at 22.5\,GHz with seven binary control bits, both \gls{pi} exhibited nearly uniform phase steps. In the two‑path \gls{pi} a single large step appeared during the MUX transition, traced to residual coupling that led to clock feed-through across disabled tri‑state inverters. Relocating the enable switch between the inverter pull devices and the output node improved isolation and removed the glitch. Converting the three \gls{msb} to thermometer code further linearised the transfer and suppressed switching spikes.
 \paragraph{Performance summary.} Table~\ref{tab:phase_interpolator_metrics} summarises the simulated results. The two architectures deliver comparable linearity and power, but their \(\approx\)43~fs average step still falls short of the specification. Future iterations will extend the control word by one or two bits to meet the required resolution without compromising jitter.
 At this juncture, the \gls{pi} is a credible alternative to the \gls{csi} fine‑tuner discussed in Section~\ref{sec:csi}. The \gls{pi} offers a wide, linear range, whereas the \gls{csi} provides finer resolution over a narrower range. A final decision requires integrating a tuner into the full \gls{mpg} schematic to clarify the required performance trade-offs.
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \caption{Comparison of key metrics for 2- and 3-path PI finetuning implementations at 22.5~GHz.}
 \begin{tabular}{|l|c|c|}
@@ -537,13 +537,13 @@ Average power (W) & 4.675m & 4.481m \\
 \end{tabular}
 \label{tab:phase_interpolator_metrics}
 \end{table}
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.4\linewidth]{figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png}
   \caption{duty‑cycle distortion as the MSB switches at different times across the clock period. The duty-cycle distortion is most significant at different times across branches.}
   \label{fig:dcd_MSB}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \hfill
   \begin{subfigure}[t]{0.3\linewidth}
