@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  29 SEP 2025 10:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  29 SEP 2025 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,31 +851,31 @@ Package glossaries Info: Writing glossary file thesis_jpm_22.5G_MPG_3nm.acn on i
 \openout7 = `thesis_jpm_22.5G_MPG_3nm.ntn'.
 
 Package glossaries Info: Writing glossary file thesis_jpm_22.5G_MPG_3nm.ntn on input line 43.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 151.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 151.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 152.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 152.
  (C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (thesis_jpm_22.5G_MPG_3nm.aux)
 \openout1 = `thesis_jpm_22.5G_MPG_3nm.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -941,47 +941,47 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 151.
-Package microtype Info: Applying patch `item' on input line 151.
-Package microtype Info: Applying patch `toc' on input line 151.
-Package microtype Info: Applying patch `eqnum' on input line 151.
-Package microtype Info: Applying patch `footnote' on input line 151.
-Package microtype Info: Applying patch `verbatim' on input line 151.
+LaTeX Info: Redefining \microtypecontext on input line 152.
+Package microtype Info: Applying patch `item' on input line 152.
+Package microtype Info: Applying patch `toc' on input line 152.
+Package microtype Info: Applying patch `eqnum' on input line 152.
+Package microtype Info: Applying patch `footnote' on input line 152.
+Package microtype Info: Applying patch `verbatim' on input line 152.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 151.
+LaTeX Info: Redefining \showhyphens on input line 152.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 151.
+Package hyperref Info: Link coloring OFF on input line 152.
  (C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 151.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 152.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/b/n on input line 151.
-Package gensymb Info: Math companion symbols declared on input line 151.
-LaTeX Info: Redefining \degree on input line 151.
-LaTeX Info: Redefining \celsius on input line 151.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 151.
-LaTeX Info: Redefining \ohm on input line 151.
-Package gensymb Info: Using \textohm for \ohm on input line 151.
-LaTeX Info: Redefining \micro on input line 151.
-Package gensymb Info: Using \textmu for \micro on input line 151.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/b/n on input line 152.
+Package gensymb Info: Math companion symbols declared on input line 152.
+LaTeX Info: Redefining \degree on input line 152.
+LaTeX Info: Redefining \celsius on input line 152.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 152.
+LaTeX Info: Redefining \ohm on input line 152.
+Package gensymb Info: Using \textohm for \ohm on input line 152.
+LaTeX Info: Redefining \micro on input line 152.
+Package gensymb Info: Using \textmu for \micro on input line 152.
 \c@lstlisting=\count399
  (thesis_jpm_22.5G_MPG_3nm.glsdefs)
 <figures/university-logo.png, id=6, 1284.8pt x 722.7pt>
 File: figures/university-logo.png Graphic file (type png)
 <use figures/university-logo.png>
-Package pdftex.def Info: figures/university-logo.png  used on input line 153.
+Package pdftex.def Info: figures/university-logo.png  used on input line 154.
 (pdftex.def)             Requested size: 136.57462pt x 76.81755pt.
 
 
@@ -995,7 +995,7 @@ Package pdftex.def Info: figures/university-logo.png  used on input line 153.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.157 \copyrightpage
+l.158 \copyrightpage
                      [1] (sections/abstract.tex (C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
@@ -1102,7 +1102,7 @@ Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 \cleardoublepage
+l.194 \cleardoublepage
                        [1
 
 
@@ -1610,7 +1610,7 @@ L3 programming layer <2024-08-30>
 Here is how much of TeX's memory you used:
  40835 strings out of 473899
  792370 string characters out of 5721743
- 1675037 words of memory out of 5000000
+ 1675039 words of memory out of 5000000
  61217 multiletter control sequences out of 15000+600000
  622395 words of font info for 427 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1682,7 +1682,7 @@ pdfTeX warning (dest): name{glo:pvt} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:csi} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 6023022 bytes).
+Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 6023021 bytes).
 PDF statistics:
  2714 PDF objects out of 2984 (max. 8388607)
  1328 named destinations out of 1440 (max. 500000)
