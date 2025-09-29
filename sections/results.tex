@@ -163,7 +163,7 @@ Following a detailed investigation of the 7nm technology node's limitations, the
 The delay of the slow path was modulated by two independent control mechanisms:
 \begin{description}
   \item[Capacitor Code ($C_\text{code}$)] N-bit capacitor banks at nodes $N_1$ and $N_2$ provided coarse delay tuning with steps.
-  \item[Local Supply Bias ($\Delta V_\text{DD}$)] Each inverter in the slow path was powered by a controllable supply rail ($\text{AVCC}^*$), enabling fine-grained delay adjustments.
+  \item[Local Supply Bias ($\Delta V_\text{DD}$)] Each inverter in the slow path was powered by a controllable supply rail ($\text{VCC}^*$), enabling fine-grained delay adjustments.
 \end{description}
 
 Refer to the schematic drawing in Figure \ref{fig:PI_1_schematic}. The fast and slow paths converge at a mixing node, $N_\text{mix}$. To ensure clean interpolation, static termination capacitors were placed on the nodes immediately preceding the mixing stage. These capacitors equalize the signal edge slopes, guiding the mixed phase toward the desired intermediate value and minimizing \gls{dcd}.
@@ -188,9 +188,9 @@ One option was to reduce the capacitive load at node $N_2$ (the output of the fi
 Stacked-device inverters were also explored; Appendix~\ref{app:supp_figures} shows the topology (Fig.~\ref{fig:stacked_inv}). The standard \gls{ulvt} inverters were replaced with inverters featuring two-transistor stacked pull-up and pull-down branches. The symmetric series resistance of this stacked topology improved edge matching and significantly lowered DCD, albeit at the cost of increased device area and higher switching power. Introducing more devices into the design would also predictably increase noise and jitter, which was not acceptable for the target application, especially considering the mixing node was already a major contributor to jitter.
 
 
-\subsection{2-stage Supply-Bias Fine-Tuning Variant}\label{sec:avcc_finetune}
+\subsection{2-stage Supply-Bias Fine-Tuning Variant}\label{sec:VCC_finetune}
 
-Another variant of the PI (Appendix~\ref{app:supp_figures}, Fig.~\ref{fig:PI_2_schematic}) was developed where only the first two inverters in the delayed branch were voltage-tuned. By tuning an even number of inverters, the duty‑cycle distortion induced by each stage would partially counteract one another. Key observations from this variant were that adjusting the local supply \texttt{AVCC} over a \SI{\pm45}{\milli\volt} window changed the \ang{90} phase by approximately \ang{13}, representing a significant improvement compared to the \ang{4} range of the original three-inverter tunable path. Additionally, across the same bias range, the duty-cycle distortion improved from approximately 7\% to 2\%.
+Another variant of the PI (Appendix~\ref{app:supp_figures}, Fig.~\ref{fig:PI_2_schematic}) was developed where only the first two inverters in the delayed branch were voltage-tuned. By tuning an even number of inverters, the duty‑cycle distortion induced by each stage would partially counteract one another. Key observations from this variant were that adjusting the local supply \texttt{VCC} over a \SI{\pm45}{\milli\volt} window changed the \ang{90} phase by approximately \ang{13}, representing a significant improvement compared to the \ang{4} range of the original three-inverter tunable path. Additionally, across the same bias range, the duty-cycle distortion improved from approximately 7\% to 2\%.
 
 These results were positive and indicated that the supply-bias fine-tuning approach could provide a means of achieving the required phase shifts with reduced \gls{dcd}. However, \gls{dcd} remained a concern, as it was still too high for the target application and would necessitate the addition of further correction circuitry to ensure the output clock met the stringent requirements of the \gls{serdes} system. Since jitter was a critical parameter in the overall SerDes transmission chain budget, the team decided to explore alternative methods for achieving the required phase shifts without introducing significant \gls{dcd}, and possibly correcting the \gls{dcd} without additional stages.
 
@@ -366,7 +366,7 @@ Figures \ref{fig:cap_vs_codes} and \ref{fig:cap_vs_tap_voltage} verify these obs
 
 \subsection{Parasitic Back-Annotation Strategy}
 
-To model post-layout behaviour we first back-annotated parasitic capacitances extracted with \textsc{ParagonX Pro}.%
+To model post-layout behaviour we first back-annotated parasitic capacitances extracted with a parasitic analysis tool.
 The extracted values were inserted as ideal lumped capacitors between every relevant node pair (\(V_\text{IN}\), \(V_\text{OUT}\), \(V_\text{DD}\), \(V_\text{SS}\)).
 
 % \begin{figure}[htbp]
@@ -382,7 +382,7 @@ Even with careful sizing of the MOS capacitors and switches, the parasitic load 
 A second simulation was therefore carried out on a compact testbench.  
 We compared i) the transient response of this post-layout netlist with ii) a schematic in which the extracted caps were multiplied by a global scaling factor.  
 Good agreement appeared even when the scale factor was far below unity.  
-Inspection of the DC operating point clarified the reason: the TSMC transistor wrapper models already include femtofarad-level capacitances beyond intrinsic and overlap capacitances that dominate most layout-dependent contributions at low metal levels.
+Inspection of the DC operating point clarified the reason: the transistor wrapper models already include femtofarad-level capacitances beyond intrinsic and overlap capacitances that dominate most layout-dependent contributions at low metal levels.
 
 Hence the wrapper-based schematic already mimics the bulk of the real parasitic capacitance.  
 A fully accurate absolute back-annotation would require a specialised, fully optimised layout well beyond the exploratory buffer used here yet side-by-side comparisons show that the schematic plus wrapper reproduces post-layout behaviour closely enough for the current stage of the project.

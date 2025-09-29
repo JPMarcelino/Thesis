@@ -4,12 +4,12 @@
 The input demultiplexer and output multiplexer were designed to meet the clock generator's stringent requirements for low jitter, high input-to-output isolation, and minimal area overhead. They route the input clocks to the appropriate frequency path and select the final output for the fine-tuning stage.
 
 \subsection{Input Demultiplexer}
-The input demultiplexer was constructed using a two-stage buffer design, where the first stage consists of two identical regular tri-state inverters and the second stage is a common-source inverter stage. PMOS/NMOS common-gate transistors pull the intermediate networks to \texttt{AVCC}/\texttt{GND}, respectively. An enable signal controls the tri-state inverters and the intermediate-node pull-up/down networks.
+The input demultiplexer was constructed using a two-stage buffer design, where the first stage consists of two identical regular tri-state inverters and the second stage is a common-source inverter stage. PMOS/NMOS common-gate transistors pull the intermediate networks to \texttt{VCC}/\texttt{GND}, respectively. An enable signal controls the tri-state inverters and the intermediate-node pull-up/down networks.
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\linewidth]{figures/Schematics/input_demux.png}
-  \caption{Input demultiplexer schematic. The first stage consists of two identical tri-state inverters, while the second stage is a common-source inverter stage. PMOS/NMOS common-gate transistors pull the intermediate networks to \texttt{AVCC}/\texttt{GND}, respectively.}
+  \caption{Input demultiplexer schematic. The first stage consists of two identical tri-state inverters, while the second stage is a common-source inverter stage. PMOS/NMOS common-gate transistors pull the intermediate networks to \texttt{VCC}/\texttt{GND}, respectively.}
   \label{fig:input_demux}
 \end{figure}
 

@@ -62,7 +62,7 @@ module generic_vb_tuner (
   // Parameter Definitions
   //--------------------------------------------------------------------------
   // --- Basic Operation ---
-  parameter real AVCC = 0.88;      // Supply voltage (V)
+  parameter real VCC = 0.88;      // Supply voltage (V)
   parameter real target_phase_deg = 270.0;   // Desired target phase delay (degrees)
   parameter integer start_locked = 1;        // Start in locked state (1) or tuning state (0).
 
@@ -71,11 +71,11 @@ module generic_vb_tuner (
   parameter real phase_tolerance_retune_deg = 0.2; // Phase deviation tolerance (deg) from TARGET for retuning (used if dynamic tolerance is disabled)
 
   // --- Voltage Control ---
-  parameter real vbn_min = AVCC / 2.0;
-  parameter real vbn_max = AVCC;
+  parameter real vbn_min = VCC / 2.0;
+  parameter real vbn_max = VCC;
   parameter real vbn_typ = (vbn_max + vbn_min)/2; // Typical/Reset value
   parameter real vbp_min = 0.0;
-  parameter real vbp_max = AVCC / 2.0;
+  parameter real vbp_max = VCC / 2.0;
   parameter real vbp_typ = (vbp_max + vbp_min)/2; // Typical/Reset value
   parameter real voltage_step = 10e-3;       // Voltage adjustment step size (V)
 
@@ -226,7 +226,7 @@ module generic_vb_tuner (
     //--------------------------------------------------------------------------
     // Tuning Enable Pulse Event
     //--------------------------------------------------------------------------
-    @(cross(V(enable_tune_pulse) - AVCC / 2.0, +1)) begin
+    @(cross(V(enable_tune_pulse) - VCC / 2.0, +1)) begin
        if (enable_debug_prints >= 1) begin
           $display("[%e: INFO(%m)] Enable pulse received. Resetting state and starting tuning.", $abstime);
        end
@@ -261,13 +261,13 @@ module generic_vb_tuner (
     //--------------------------------------------------------------------------
     V(vbn) <+ transition( (req_prev_pulse_active ? vbn_typ : vbn_val), 0, trf);
     V(vbp) <+ transition( (req_prev_pulse_active ? vbp_typ : vbp_val), 0, trf);
-    V(tune_locked_pulse) <+ transition((lock_pulse_active ? AVCC : 0.0), 0, trf);
-    V(request_prev_stage_pulse) <+ transition((req_prev_pulse_active ? AVCC : 0.0), 0, trf);
+    V(tune_locked_pulse) <+ transition((lock_pulse_active ? VCC : 0.0), 0, trf);
+    V(request_prev_stage_pulse) <+ transition((req_prev_pulse_active ? VCC : 0.0), 0, trf);
 
     //--------------------------------------------------------------------------
     // Main Logic: Reference Clock Edge Event (-ve edge)
     //--------------------------------------------------------------------------
-    @(cross(V(clk_ref) - AVCC / 2.0, -1)) begin
+    @(cross(V(clk_ref) - VCC / 2.0, -1)) begin
       // --- Period Calculation ---
       if (t_ref_edge > 0.0) begin
         clk_period = $abstime - t_ref_edge;
@@ -425,7 +425,7 @@ module generic_vb_tuner (
                               $abstime, best_control_val, best_phase_at_lock, abs(best_phase_at_lock - target_phase_deg));
                   end
                   vbn_val = best_control_val; // Set the final VBN
-                  vbp_val = AVCC - vbn_val; // Assume complementary voltage for VBP
+                  vbp_val = VCC - vbn_val; // Assume complementary voltage for VBP
                   vbp_val = max(vbp_min, min(vbp_max, vbp_val)); // Clamp VBP
 
                   // === LOCKING ACTION (Oscillation) ===
@@ -565,7 +565,7 @@ module generic_vb_tuner (
     //--------------------------------------------------------------------------
     // Delayed Clock Edge Event (-ve edge)
     //--------------------------------------------------------------------------
-    @(cross(V(clk_delayed) - AVCC / 2.0, -1)) begin
+    @(cross(V(clk_delayed) - VCC / 2.0, -1)) begin
       // Capture delayed clock edge time. Needed even when locked for retune check.
       // Only skip update if previous stage request is active (timing might be invalid)
       if (req_prev_pulse_active == 0) begin
