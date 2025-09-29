@@ -415,11 +415,11 @@ INPUT .\sections\copyright.tex
 INPUT sections\copyright.tex
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT .\sections\resumo.tex
-INPUT .\sections\resumo.tex
-INPUT .\sections\resumo.tex
-INPUT .\sections\resumo.tex
-INPUT sections\resumo.tex
+INPUT .\sections\abstract.tex
+INPUT .\sections\abstract.tex
+INPUT .\sections\abstract.tex
+INPUT .\sections\abstract.tex
+INPUT sections\abstract.tex
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
@@ -460,11 +460,11 @@ INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\tim
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT .\sections\abstract.tex
-INPUT .\sections\abstract.tex
-INPUT .\sections\abstract.tex
-INPUT .\sections\abstract.tex
-INPUT sections\abstract.tex
+INPUT .\sections\resumo.tex
+INPUT .\sections\resumo.tex
+INPUT .\sections\resumo.tex
+INPUT .\sections\resumo.tex
+INPUT sections\resumo.tex
 INPUT .\sections\acknowledgements.tex
 INPUT .\sections\acknowledgements.tex
 INPUT .\sections\acknowledgements.tex

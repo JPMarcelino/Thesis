@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  29 SEP 2025 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  29 SEP 2025 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,7 +996,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.157 \copyrightpage
-                     [1] (sections/resumo.tex (C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+                     [1] (sections/abstract.tex (C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
@@ -1019,7 +1019,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [1
 
 
-] (sections/abstract.tex)
+] (sections/resumo.tex)
 
 [2
 
@@ -1682,7 +1682,7 @@ pdfTeX warning (dest): name{glo:pvt} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:csi} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 6023016 bytes).
+Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 6023022 bytes).
 PDF statistics:
  2714 PDF objects out of 2984 (max. 8388607)
  1328 named destinations out of 1440 (max. 500000)
