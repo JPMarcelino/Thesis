@@ -1,6 +1,6 @@
 
 \section{Multi-Phase Generation Techniques at mm-Wave Frequencies}
-At frequencies above 10\,GHz, eight evenly-spaced phases are typically realised with either \glspl{dll}, ring oscillators or phase-interpolation networks, each option presenting a distinct set of trade-offs in jitter, resolution and power.
+At frequencies above 10\,GHz, eight evenly-spaced phases are typically realised with either delay-locked loops (\glspl{dll}), ring oscillators or phase-interpolation \gls{pi} networks, each option presenting a distinct set of trade-offs in jitter, resolution and power.
 
 \subsection{DLL-based generation}
 A conventional \gls{dll} cascades $N$ voltage- or digitally-controlled delay cells whose total delay is phase-locked to one input period, thereby providing $N$ equi-spaced taps \cite{Wang2021JSSC}.
@@ -89,19 +89,19 @@ A widely adopted Figure of Merit that normalizes performance based on RMS jitter
 
   Chen '18 \cite{Chen2018ISSCC} & 7nm FinFET & 4--16 & 1.2/0.88 & 8 (+PI) & 7-bit PI & 80\textsuperscript{a} & {0.1--1k} & {0.87/1.44LSB} & 22.4 & 0.105 & 1.40 & -248.4 \\
 
-  Song '19 \cite{Song2019CICC} & 16nm FinFET & 2--20 & 1/0.863 & 8 & 6-bit PI & {---}\textsuperscript{c} & {---} & {0.7/1.6LSB} & 43 & 0.0036 & 2.15 & {---} \\
+  Song '19 \cite{Song2019CICC} & 16nm FinFET & 2--20 & 1/0.863 & 8 & 6-bit PI & {---}\textsuperscript{b} & {---} & {0.7/1.6LSB} & 43 & 0.0036 & 2.15 & {---} \\
 
-  Chen '20 \cite{Chen2020VLSIC} & 5nm FinFET & 4--18 & 1 & 4 & 6-bit QEC & 148\textsuperscript{k} & {0.1--1k} & {---} & 21\textsuperscript{l} & 0.0017 & 1.17 & -243.4 \\
+  Chen '20 \cite{Chen2020VLSIC} & 5nm FinFET & 4--18 & 1 & 4 & 6-bit QEC & 148\textsuperscript{c} & {0.1--1k} & {---} & 21\textsuperscript{d} & 0.0017 & 1.17 & -243.4 \\
 
-  Wang '21 \cite{Wang2021JSSC} & 65nm CMOS & 5--8 & 1.2 & 8 & 7-bit PI & 58.8 & {0.1--1k} & {1.2/1.9} & 15.6\textsuperscript{f} & 0.021 & 1.95 & -252.7 \\
+  Wang '21 \cite{Wang2021JSSC} & 65nm CMOS & 5--8 & 1.2 & 8 & 7-bit PI & 58.8 & {0.1--1k} & {1.2/1.9} & 15.6\textsuperscript{e} & 0.021 & 1.95 & -252.7 \\
 
-  Lu '22 \cite{Lu2022JSSC} & 3nm FinFET & 12.6--14.5 & 0.875 & PLL & PLL & 56\textsuperscript{j} & {0.001--100} & {---} & 18.6 & 0.045 & 1.28 & -252.3 \\
+  Lu '22 \cite{Lu2022JSSC} & 3nm FinFET & 12.6--14.5 & 0.875 & PLL & PLL & 56\textsuperscript{f} & {0.001--100} & {---} & 18.6 & 0.045 & 1.28 & -252.3 \\
 
   Mishra '22 \cite{Mishra2022ISSCC} & 5nm FinFET & 9--14 & 0.75 & PI & 9-bit & 71 & {3--3k} & {295fs/510fs} & 6 & 0.006 & 0.43 & -255.2 \\
 
   Mohapatra '24 \cite{Mohapatra2024ISSCC} & 65nm CMOS & 6--12 & 1.2 & 4/2 (PI) & 8-bit & 68 & {0.1--1k} & {0.8/1.7LSB} & 2.2 & 0.025 & 0.18 & -258.8 \\
 
-  Tian '25 \cite{Tian2025ISSCC} & 28nm CMOS & 8--28 & 1.1 & 8 & $3^{\circ}$ error & 38\textsuperscript{h} & {0.001--1k} & {---} & {26--90} & 0.02 & 3.21 & -254.4\textsuperscript{m} \\
+  Tian '25 \cite{Tian2025ISSCC} & 28nm CMOS & 8--28 & 1.1 & 8 & $3^{\circ}$ error & 38\textsuperscript{g} & {0.001--1k} & {---} & {26--90} & 0.02 & 3.21 & -254.4\textsuperscript{h} \\
 
   \bottomrule
  \end{tabular}
@@ -110,12 +110,12 @@ A widely adopted Figure of Merit that normalizes performance based on RMS jitter
 \begin{minipage}{\textwidth}
 \footnotesize
  \textsuperscript{a}Full clock chain jitter @16GHz.
- \textsuperscript{c}RMS jitter for generator not reported.
- \textsuperscript{f}For QDLL+MPILOSC core.
- \textsuperscript{h}Includes signal source noise.
- \textsuperscript{j}Integrated @13.28GHz.
- \textsuperscript{k}Integrated @18GHz.
- \textsuperscript{l}QCG only. Full path consumes 37mW.
- \textsuperscript{m}Calculated at maximum power (90mW).
+ \textsuperscript{b}RMS jitter for generator not reported.
+ \textsuperscript{c}Integrated @18GHz.
+ \textsuperscript{d}QCG only. Full path consumes 37mW.
+ \textsuperscript{e}For QDLL+MPILOSC core.
+ \textsuperscript{f}Integrated @13.28GHz.
+ \textsuperscript{g}Includes signal source noise.
+ \textsuperscript{h}Calculated at maximum power (90mW).
 \end{minipage}
 \end{table*}

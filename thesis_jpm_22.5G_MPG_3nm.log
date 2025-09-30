@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  29 SEP 2025 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.12)  30 SEP 2025 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1154,7 +1154,7 @@ $\OT1/cmr/m/n/10.95 21$
  []
 
 
-Overfull \hbox (2.72392pt too wide) detected at line 108
+Overfull \hbox (4.5pt too wide) detected at line 108
  $[]$ 
  []
 
@@ -1164,7 +1164,7 @@ $\OT1/cmr/m/n/10.95 15$
  []
 
 
-Overfull \hbox (3.16397pt too wide) detected at line 108
+Overfull \hbox (4.05196pt too wide) detected at line 108
  $[]$ 
  []
 
@@ -1174,7 +1174,7 @@ $\OT1/cmr/m/n/10.95 18$
  []
 
 
-Overfull \hbox (6.72392pt too wide) detected at line 108
+Overfull \hbox (4.5pt too wide) detected at line 108
  $[]$ 
  []
 
@@ -1204,7 +1204,7 @@ Chapter 4.
 <figures/Schematics/switch_cap_SCI.png, id=582, 481.92046pt x 345.2097pt>
 File: figures/Schematics/switch_cap_SCI.png Graphic file (type png)
 <use figures/Schematics/switch_cap_SCI.png>
-Package pdftex.def Info: figures/Schematics/switch_cap_SCI.png  used on input line 141.
+Package pdftex.def Info: figures/Schematics/switch_cap_SCI.png  used on input line 142.
 (pdftex.def)             Requested size: 318.66948pt x 228.27103pt.
 
 
@@ -1212,7 +1212,7 @@ Package pdftex.def Info: figures/Schematics/switch_cap_SCI.png  used on input li
 <figures/Schematics/clock_generation_half_V0.png, id=600, 449.2785pt x 106.83916pt>
 File: figures/Schematics/clock_generation_half_V0.png Graphic file (type png)
 <use figures/Schematics/clock_generation_half_V0.png>
-Package pdftex.def Info: figures/Schematics/clock_generation_half_V0.png  used on input line 173.
+Package pdftex.def Info: figures/Schematics/clock_generation_half_V0.png  used on input line 174.
 (pdftex.def)             Requested size: 364.19667pt x 86.61096pt.
 
 
@@ -1226,12 +1226,12 @@ Package pdftex.def Info: figures/Schematics/clock_generation_half_V0.png  used o
 <figures/Results/FF_8out_3nm_idealswitches-Phase90_tuning_PVT_SomeN.png, id=667, 631.27844pt x 512.3943pt>
 File: figures/Results/FF_8out_3nm_idealswitches-Phase90_tuning_PVT_SomeN.png Graphic file (type png)
 <use figures/Results/FF_8out_3nm_idealswitches-Phase90_tuning_PVT_SomeN.png>
-Package pdftex.def Info: figures/Results/FF_8out_3nm_idealswitches-Phase90_tuning_PVT_SomeN.png  used on input line 310.
+Package pdftex.def Info: figures/Results/FF_8out_3nm_idealswitches-Phase90_tuning_PVT_SomeN.png  used on input line 311.
 (pdftex.def)             Requested size: 204.85846pt x 166.27599pt.
 <figures/Results/FF_8out_PPNN-DCDWithCap.png, id=668, 661.39095pt x 512.3943pt>
 File: figures/Results/FF_8out_PPNN-DCDWithCap.png Graphic file (type png)
 <use figures/Results/FF_8out_PPNN-DCDWithCap.png>
-Package pdftex.def Info: figures/Results/FF_8out_PPNN-DCDWithCap.png  used on input line 317.
+Package pdftex.def Info: figures/Results/FF_8out_PPNN-DCDWithCap.png  used on input line 318.
 (pdftex.def)             Requested size: 204.85846pt x 158.70767pt.
 
 
@@ -1241,12 +1241,12 @@ Package pdftex.def Info: figures/Results/FF_8out_PPNN-DCDWithCap.png  used on in
 <figures/Results/Cap_tests-CapVsCode.png, id=688, 641.2758pt x 512.3943pt>
 File: figures/Results/Cap_tests-CapVsCode.png Graphic file (type png)
 <use figures/Results/Cap_tests-CapVsCode.png>
-Package pdftex.def Info: figures/Results/Cap_tests-CapVsCode.png  used on input line 354.
+Package pdftex.def Info: figures/Results/Cap_tests-CapVsCode.png  used on input line 355.
 (pdftex.def)             Requested size: 204.85846pt x 163.68805pt.
 <figures/Results/Cap_tests-CapVsVoltage.png, id=689, 621.2811pt x 512.3943pt>
 File: figures/Results/Cap_tests-CapVsVoltage.png Graphic file (type png)
 <use figures/Results/Cap_tests-CapVsVoltage.png>
-Package pdftex.def Info: figures/Results/Cap_tests-CapVsVoltage.png  used on input line 361.
+Package pdftex.def Info: figures/Results/Cap_tests-CapVsVoltage.png  used on input line 362.
 (pdftex.def)             Requested size: 204.85846pt x 168.95772pt.
 
 
@@ -1254,12 +1254,12 @@ Package pdftex.def Info: figures/Results/Cap_tests-CapVsVoltage.png  used on inp
 <figures/Results/FF_8out_PNPN-FightExample.png, id=700, 631.27844pt x 512.3943pt>
 File: figures/Results/FF_8out_PNPN-FightExample.png Graphic file (type png)
 <use figures/Results/FF_8out_PNPN-FightExample.png>
-Package pdftex.def Info: figures/Results/FF_8out_PNPN-FightExample.png  used on input line 420.
+Package pdftex.def Info: figures/Results/FF_8out_PNPN-FightExample.png  used on input line 421.
 (pdftex.def)             Requested size: 218.51521pt x 177.36261pt.
 <figures/Schematics/pure_delay.png, id=701, 362.7954pt x 158.0304pt>
 File: figures/Schematics/pure_delay.png Graphic file (type png)
 <use figures/Schematics/pure_delay.png>
-Package pdftex.def Info: figures/Schematics/pure_delay.png  used on input line 426.
+Package pdftex.def Info: figures/Schematics/pure_delay.png  used on input line 427.
 (pdftex.def)             Requested size: 218.51521pt x 95.18549pt.
 
 
@@ -1267,7 +1267,7 @@ Package pdftex.def Info: figures/Schematics/pure_delay.png  used on input line 4
 <figures/Schematics/mixF_design.png, id=707, 287.99596pt x 248.24745pt>
 File: figures/Schematics/mixF_design.png Graphic file (type png)
 <use figures/Schematics/mixF_design.png>
-Package pdftex.def Info: figures/Schematics/mixF_design.png  used on input line 454.
+Package pdftex.def Info: figures/Schematics/mixF_design.png  used on input line 455.
 (pdftex.def)             Requested size: 227.62206pt x 196.21182pt.
 
 
@@ -1279,12 +1279,12 @@ Package pdftex.def Info: figures/Schematics/mixF_design.png  used on input line 
 <figures/Schematics/div_V2_complete.png, id=738, 722.09775pt x 225.2415pt>
 File: figures/Schematics/div_V2_complete.png Graphic file (type png)
 <use figures/Schematics/div_V2_complete.png>
-Package pdftex.def Info: figures/Schematics/div_V2_complete.png  used on input line 503.
+Package pdftex.def Info: figures/Schematics/div_V2_complete.png  used on input line 504.
 (pdftex.def)             Requested size: 455.24411pt x 142.00255pt.
 <figures/Schematics/sync_complete.png, id=739, 771.00044pt x 134.4222pt>
 File: figures/Schematics/sync_complete.png Graphic file (type png)
 <use figures/Schematics/sync_complete.png>
-Package pdftex.def Info: figures/Schematics/sync_complete.png  used on input line 509.
+Package pdftex.def Info: figures/Schematics/sync_complete.png  used on input line 510.
 (pdftex.def)             Requested size: 455.24411pt x 79.37198pt.
 
 
@@ -1294,40 +1294,40 @@ Package pdftex.def Info: figures/Schematics/sync_complete.png  used on input lin
 <figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png, id=770, 688.0104pt x 513.96014pt>
 File: figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png Graphic file (type png)
 <use figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png>
-Package pdftex.def Info: figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png  used on input line 542.
+Package pdftex.def Info: figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png  used on input line 543.
 (pdftex.def)             Requested size: 182.09486pt x 136.02625pt.
 <figures/Schematics/PhaseInterpolator_3paths.png, id=771, 196.0926pt x 167.9073pt>
 File: figures/Schematics/PhaseInterpolator_3paths.png Graphic file (type png)
 <use figures/Schematics/PhaseInterpolator_3paths.png>
-Package pdftex.def Info: figures/Schematics/PhaseInterpolator_3paths.png  used on input line 551.
+Package pdftex.def Info: figures/Schematics/PhaseInterpolator_3paths.png  used on input line 552.
 (pdftex.def)             Requested size: 136.57462pt x 116.95015pt.
 <figures/Schematics/PhaseInterpolator_2paths.png, id=772, 203.68095pt x 197.65845pt>
 File: figures/Schematics/PhaseInterpolator_2paths.png Graphic file (type png)
 <use figures/Schematics/PhaseInterpolator_2paths.png>
-Package pdftex.def Info: figures/Schematics/PhaseInterpolator_2paths.png  used on input line 558.
+Package pdftex.def Info: figures/Schematics/PhaseInterpolator_2paths.png  used on input line 559.
 (pdftex.def)             Requested size: 136.57462pt x 132.53903pt.
 <figures/Results/Final_HF_LF_MF-Pivot_Jee.png, id=780, 1052.9739pt x 527.571pt>
 File: figures/Results/Final_HF_LF_MF-Pivot_Jee.png Graphic file (type png)
 <use figures/Results/Final_HF_LF_MF-Pivot_Jee.png>
-Package pdftex.def Info: figures/Results/Final_HF_LF_MF-Pivot_Jee.png  used on input line 573.
+Package pdftex.def Info: figures/Results/Final_HF_LF_MF-Pivot_Jee.png  used on input line 574.
 (pdftex.def)             Requested size: 364.19667pt x 182.47104pt.
 <figures/Results/Final_HF_LF_MF-Pivot_CapCodes_HF.png, id=783, 1141.866pt x 557.6835pt>
 File: figures/Results/Final_HF_LF_MF-Pivot_CapCodes_HF.png Graphic file (type png)
 <use figures/Results/Final_HF_LF_MF-Pivot_CapCodes_HF.png>
-Package pdftex.def Info: figures/Results/Final_HF_LF_MF-Pivot_CapCodes_HF.png  used on input line 579.
+Package pdftex.def Info: figures/Results/Final_HF_LF_MF-Pivot_CapCodes_HF.png  used on input line 580.
 (pdftex.def)             Requested size: 364.19667pt x 177.8752pt.
 <figures/Results/Final_HF_LF_MF-power_distributions_LFMFHF.png, id=788, 605.6226pt x 491.1951pt>
 File: figures/Results/Final_HF_LF_MF-power_distributions_LFMFHF.png Graphic file (type png)
 <use figures/Results/Final_HF_LF_MF-power_distributions_LFMFHF.png>
-Package pdftex.def Info: figures/Results/Final_HF_LF_MF-power_distributions_LFMFHF.png  used on input line 585.
+Package pdftex.def Info: figures/Results/Final_HF_LF_MF-power_distributions_LFMFHF.png  used on input line 586.
 (pdftex.def)             Requested size: 182.09486pt x 147.68944pt.
 )
 
-[25]
+[25 <./figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png>]
 
-[26 <./figures/Results/Final_HF_LF_MF-DCD_vs_switchingDelay.png> <./figures/Schematics/PhaseInterpolator_3paths.png> <./figures/Schematics/PhaseInterpolator_2paths.png>]
+[26 <./figures/Schematics/PhaseInterpolator_3paths.png> <./figures/Schematics/PhaseInterpolator_2paths.png> <./figures/Results/Final_HF_LF_MF-Pivot_Jee.png>]
 
-[27 <./figures/Results/Final_HF_LF_MF-Pivot_Jee.png> <./figures/Results/Final_HF_LF_MF-Pivot_CapCodes_HF.png> <./figures/Results/Final_HF_LF_MF-power_distributions_LFMFHF.png>]
+[27 <./figures/Results/Final_HF_LF_MF-Pivot_CapCodes_HF.png> <./figures/Results/Final_HF_LF_MF-power_distributions_LFMFHF.png>]
 Chapter 5.
 (sections/conclusions.tex
 
@@ -1608,11 +1608,11 @@ L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40835 strings out of 473899
- 792370 string characters out of 5721743
+ 40838 strings out of 473899
+ 792394 string characters out of 5721743
  1675039 words of memory out of 5000000
  61217 multiletter control sequences out of 15000+600000
- 622395 words of font info for 427 fonts, out of 8000000 for 9000
+ 622514 words of font info for 429 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,14n,93p,2372b,2820s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1682,7 +1682,7 @@ pdfTeX warning (dest): name{glo:pvt} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:csi} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/João Marcelino/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 6023021 bytes).
+Output written on thesis_jpm_22.5G_MPG_3nm.pdf (82 pages, 5976091 bytes).
 PDF statistics:
  2714 PDF objects out of 2984 (max. 8388607)
  1328 named destinations out of 1440 (max. 500000)

@@ -20,7 +20,8 @@ A simple examination of this design highlighted an \gls{inl} with a maximum erro
 In order to implement a tuning mechanism that could adapt the circuit to different process corners and operating conditions and verify the ability to operate across frequencies and corners, a Verilog-A model of the tuning mechanism was developed. This model allowed for rapid testing and verification of the tuning logic without the overhead of full schematic simulations. Initial iterations of the \gls{mpg} did not make use of this tuning mechanism, but as the design evolved, it became clear that a more flexible and efficient approach was needed.
 
 This way, the tuning mechanism could be tested and validated more efficiently by extracting delay step sizes, duty‑cycle distortion, and other performance metrics across a range of operating conditions. Tuning dynamically during transient simulations was also important to ensure that the circuit could adapt to varying conditions without causing unintended transients or glitches in the output clock signals, which DC simulations across static control voltages could not verify.
-To streamline this process, a Verilog-A model of the tuning mechanism was developed. This model allowed for rapid testing and verification of the tuning logic without the overhead of full schematic simulations. Appendixes \ref{app:verilog-a-code} and \ref{app:verilog-a-code-2} contain the Verilog-A code for the tuning blocks.
+
+Appendixes \ref{app:verilog-a-code} and \ref{app:verilog-a-code-2} contain the Verilog-A code for the tuning blocks.
 
 %--------------------------------------------------------------------
 \subsection{Behavioural Tuning Models Implemented in Verilog-A}
