@@ -347,6 +347,11 @@ INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\glossarie
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\supertabular\supertabular.sty
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 OUTPUT thesis_jpm_22.5G_MPG_3nm.glo
 OUTPUT thesis_jpm_22.5G_MPG_3nm.acn
 OUTPUT thesis_jpm_22.5G_MPG_3nm.ntn
@@ -379,6 +384,31 @@ INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\translati
 INPUT .\thesis_jpm_22.5G_MPG_3nm.glsdefs
 INPUT .\thesis_jpm_22.5G_MPG_3nm.glsdefs
 INPUT thesis_jpm_22.5G_MPG_3nm.glsdefs
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+INPUT .\cover.pdf
+OUTPUT thesis_jpm_22.5G_MPG_3nm.xdy
+INPUT C:\Users\João Marcelino\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\figures\university-logo.png
 INPUT .\figures\university-logo.png
 INPUT .\figures\university-logo.png
@@ -393,10 +423,8 @@ INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\tim
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-OUTPUT thesis_jpm_22.5G_MPG_3nm.xdy
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\João Marcelino\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
@@ -993,6 +1021,10 @@ INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\cou
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrb8a.pfb
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\João Marcelino\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb

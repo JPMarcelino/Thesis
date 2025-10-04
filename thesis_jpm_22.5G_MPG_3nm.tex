@@ -35,6 +35,7 @@
 \usepackage{tikz} % For drawing diagrams
 \usepackage{wallpaper} % For background images
 \usepackage[xindy]{glossaries} % For creating glossaries and lists of acronyms
+\usepackage{pdfpages} % For including PDF pages (For the cover page if needed as PDF) 
 
 
 % Define two glossaries: one for acronyms, one for notation
@@ -150,6 +151,13 @@
 % DOCUMENT START
 % =====================================================================
 \begin{document}
+
+\includepdf[
+  pages=1,
+  pagecommand={\thispagestyle{empty}},
+  offset=0 0
+]{cover.pdf}
+
 
 \frontpage%
 \thispagestyle{empty}
